@@ -3,7 +3,7 @@ const hero = () =>{
     const gameScreen = document.getElementsByClassName("game_screen")
     let xPosition = 0
     let yPosition = 0
-
+    
     document.addEventListener('keydown', function(event) {
         if (event.code == 'ArrowUp') {
 
@@ -37,6 +37,5 @@ const hero = () =>{
             }
         }
       });
-
 }
 export default hero

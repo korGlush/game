@@ -7,7 +7,7 @@
 }
 
 html{
-    background-color: rgb(66, 65, 65);
+    background-color: rgb(65, 65, 66);
 }
 
 .container{
@@ -30,17 +30,16 @@ html{
     background-color: #fff;
 }
 
-.game_screen{
+.gameScreen{
     width: 1000px;
     height: 700px;
     position: relative;
 }
 
-.img {
+.img{
     height: 100px;
     top: 0;
     left: 0;
     position: absolute;
-    content:'';
     z-index: 1;
 }
